@@ -38,10 +38,10 @@ void get_all_divisors(int n){
 int get_lowest_divisors(int n){
   int i;
   double sqrt_of_n = sqrt(static_cast<double>(n));
-  for (i = 2; i <= sqrt_of_n; i++) 
-    if (n % i == 0) 
+  for (i = 2; i <= sqrt_of_n; i++)
+    if (n % i == 0)
       return i;
-    
+
     return n;
-  
+
 }
