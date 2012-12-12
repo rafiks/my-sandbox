@@ -1,0 +1,66 @@
+cscope 15 $HOME/src/myproject               0000000335
+	@convert1.cpp
+
+1 
+	~<io¡»am
+>
+
+2 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+4 
+	$maš
+() {
+
+5 
+ùemp
+, 
+áemp
+;
+
+6 
+cout
+ << "Input‡ Fahrenheitemp‡nd…ressƒnter:";
+
+7 
+cš
+ >> 
+áemp
+;
+
+9 
+ùemp
+ = (
+áemp
+ - 32)/1.8;
+
+10 
+cout
+ << "C–ciu ‹m°is:" << 
+ùemp
+;
+
+14 
+	}
+}
+
+	@temp.cpp
+
+1 
+	~<io¡»am
+>
+
+	@
+1
+.
+1
+/usr/include
+2
+22
+convert1.cpp
+temp.cpp
