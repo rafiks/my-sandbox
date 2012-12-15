@@ -9,7 +9,7 @@ int main(int argc, const char *argv[])
 	
 	cout << "Val. of n before tripling: " << n << endl;
 
-	double_it(&n); // pass address of a
+	triple_it(&n); // pass address of a
 
 	cout << "Val. of n after tripling: " << n << endl;
 
