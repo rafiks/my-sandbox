@@ -39,8 +39,8 @@ void draw_object(){
 
 	n = rand_0toN1(objects_remaining--);
 	object = select_next_available(n);
-	s = object %  8;
-	c = object / 8;
+	c = object %  4;
+	s = object / 4;
 	cout << color[c] << " " << shape[s] << endl;
 }
 
