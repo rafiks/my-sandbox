@@ -38,14 +38,14 @@ int main(int argc, const char *argv[])
 int get_a_string(char *buffer, char *dest, int pos){
 	int i = pos, j = 0;
 
-	while(buffer[i] == ',' || buffer[i] == ' ')
+	while(buffer[i] == ' ')
 		i++;
 
 	if (buffer[i] == '\0') {
 		return -1;
 	}
 
-	while(buffer[i] != ',' && buffer[i] != '\0')
+	while(buffer[i] != ' ' && buffer[i] != '\0')
 		dest[j++] = buffer[i++];
 
 	dest[j] = '\0';
