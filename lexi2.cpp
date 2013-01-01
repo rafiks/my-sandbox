@@ -48,7 +48,7 @@ char *get_a_string(char *start_addr, char *dest){
 	}
 
 	while( *p != ',' &&  *p != '\0')
-	 	*dest++ = *p++;
+    *dest++ = *p++;
 
 	*dest = '\0';
   return p;
